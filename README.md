@@ -1,5 +1,5 @@
 ___
-# BitPredictor
+# BitPredictor - 🪙 Empowering Investments With Machine Learning 
 ___
 
 ## Please refer the instructions in below URL:
