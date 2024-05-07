@@ -33,5 +33,5 @@
             "email": "damaanthiherath@eng.pdn.ac.lk"
         }
     ],
-    "tags": [{"Machine Learning"}, {"MLOPS"}, {"Arima"}, {"Multivariata LSTM"}, {"Random Forest"}]
+    "tags": ["Machine Learning", "MLOPS", "Arima", "Multivariata LSTM", "Random Forest"]
 }
