@@ -3,7 +3,7 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and title
-repository-name: e19-co544-Bitcoin-Cost-Forecast-System
+repository-name: e19-CO544-Bitcoin-Cost-Forecast-System
 title: BitPredictor
 ---
 
@@ -43,8 +43,8 @@ This is a sample image, to show how to add images to your page. To learn more op
 
 ## Links
 
-- [Project Repository](https://github.com/cepdnaclk/e19-co544-Bitcoin-Cost-Forecast-System)
-- [Project Page](https://cepdnaclk.github.io/e19-co544-Bitcoin-Cost-Forecast-System)
+- [Project Repository](https://github.com/cepdnaclk/e19-CO544-Bitcoin-Cost-Forecast-System)
+- [Project Page](https://cepdnaclk.github.io/e19-CO544-Bitcoin-Cost-Forecast-System)
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
 
