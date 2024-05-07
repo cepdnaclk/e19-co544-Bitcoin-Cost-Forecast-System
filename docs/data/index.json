@@ -1,30 +1,37 @@
 {
     "team": [
         {
-            "name": "Team Member Name 1",
-            "email": "email@eng.pdn.ac.lk",
+            "name": "Dissanayake P.A.M.",
+            "email": "e19091@eng.pdn.ac.lk",
+            "eNumber": "E/19/091"
+        },
+        {
+            "name": "Galappaththi M.D.",
+            "email": "e19111@eng.pdn.ac.lk",
             "eNumber": "E/yy/xxx"
         },
         {
-            "name": "Team Member Name 2",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx"
+            "name": "Jayathunga W.W.K.",
+            "email": "e19166@eng.pdn.ac.lk",
+            "eNumber": "E/19/166"
         },
         {
-            "name": "Team Member Name 3",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx"
+            "name": "Madhushanka M.P.J.",
+            "email": "e19227@eng.pdn.ac.lk",
+            "eNumber": "E/19/227"
+        },
+        {
+            "name": "Pushpakumara R.M.S.P.",
+            "email": "e19304@eng.pdn.ac.lk",
+            "eNumber": "E/19/304"
         }
+        
     ],
     "supervisors": [
         {
-            "name": "Dr. Supervisor 1",
-            "email": "email@eng.pdn.ac.lk"
-        },
-        {
-            "name": "Supervisor 2",
-            "email": "email@eng.pdn.ac.lk"
+            "name": "Dr. Damayanthi Herath",
+            "email": "damaanthiherath@eng.pdn.ac.lk"
         }
     ],
-    "tags": []
+    "tags": [{"Machine Learning"}, {"MLOPS"}, {"Arima"}, {"Multivariata LSTM"}, {"Random Forest"}]
 }
