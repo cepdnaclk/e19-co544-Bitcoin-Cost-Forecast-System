@@ -1,5 +1,4 @@
 {
-    "title": "Bitcoin Price Forecast System"
     "team": [
         {
             "name": "Dissanayake P.A.M.",
@@ -26,7 +25,6 @@
             "email": "e19304@eng.pdn.ac.lk",
             "eNumber": "E/19/304"
         }
-        
     ],
     "supervisors": [
         {
@@ -34,5 +32,11 @@
             "email": "damaanthiherath@eng.pdn.ac.lk"
         }
     ],
-    "tags": ["Machine Learning", "MLOPS", "Arima", "Multivariata LSTM", "Random Forest"]
+    "tags": [
+        "Machine Learning",
+        "MLOPS",
+        "Arima",
+        "Multivariata LSTM",
+        "Random Forest"
+    ]
 }
