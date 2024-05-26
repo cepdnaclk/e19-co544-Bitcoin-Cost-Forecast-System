@@ -26,7 +26,7 @@ ___
 </ul>
 
 <h1>Contributing</h1>
-<p>We welcome contributions to BitPredictor! If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request.</p>
+<p>We welcome contributions to BitPredictor! If you have any ideas, suggestions, or improvements, feel free to educate us</p>
 
 <h1>Members</h1>
 <ul>
