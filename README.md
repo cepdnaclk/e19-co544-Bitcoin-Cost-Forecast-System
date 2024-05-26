@@ -13,4 +13,26 @@ ___
 <li><b>Feature Engineering:</b> Creates meaningful features that improve prediction accuracy.</li>
 <li><b>Predictive Modeling:</b> Implements state-of-the-art machine learning models, including Random Forest, to predict future Bitcoin prices.</li>
 <li><b>Model Evaluation:</b> Evaluates model performance using metrics such as Mean Squared Error (MSE) and visualizes predictions against actual prices.</li>
-<li><b>Scalability:</b> Built with PySpark to handle large datasets efficiently, ensuring scalability for extensive market data.<li></ul>
+<li><b>Scalability:</b> Built with PySpark to handle large datasets efficiently, ensuring scalability for extensive market data.</li></ul>
+
+<h2>Technologies Usd</h2><br>
+<ul>
+<li><br>Python: </br>The core programming language used for data processing, modeling, and analysis.</li>
+<li><br>PySpark: </br>Employed for scalable data processing and distributed computing.</li>
+<li><br>Scikit-learn:</br> Utilized for machine learning model implementation and evaluation.</li>
+<li><br>Pandas: </br>Used for data manipulation and analysis.</li>
+<li><br>Matplotlib:</br> Employed for visualizing model predictions and performance.</li>
+<li><br>Yahoo Finance API:</br> Used to fetch historical Bitcoin price data.</li>
+</ul>
+
+<h1>Contributing</h1>
+<p>We welcome contributions to BitPredictor! If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request.</p>
+
+<h1>Members</h1>
+<ul>
+<li>E/19/091 - Dissanayake P.A.M.</li>
+<li>E/19/111 - Galappaththi M.D.</li>
+<li>E/19/166 - W.W.K.Jayathunga</li>
+<li>E/19/227 - Madhushanka M.P.J.</li>
+<li>E/19/304 - Pushpakumara R.M.S.P.</li>
+</ul>
