@@ -17,12 +17,12 @@ ___
 
 <h2>Technologies Usd</h2><br>
 <ul>
-<li><br>Python: </br>The core programming language used for data processing, modeling, and analysis.</li>
-<li><br>PySpark: </br>Employed for scalable data processing and distributed computing.</li>
-<li><br>Scikit-learn:</br> Utilized for machine learning model implementation and evaluation.</li>
-<li><br>Pandas: </br>Used for data manipulation and analysis.</li>
-<li><br>Matplotlib:</br> Employed for visualizing model predictions and performance.</li>
-<li><br>Yahoo Finance API:</br> Used to fetch historical Bitcoin price data.</li>
+<li><b>Python: </b>The core programming language used for data processing, modeling, and analysis.</li>
+<li><b>PySpark: </b>Employed for scalable data processing and distributed computing.</li>
+<li><b>Scikit-learn:</b> Utilized for machine learning model implementation and evaluation.</li>
+<li><b>Pandas: </b>Used for data manipulation and analysis.</li>
+<li><b>Matplotlib:</b> Employed for visualizing model predictions and performance.</li>
+<li><b>Yahoo Finance API:</b> Used to fetch historical Bitcoin price data.</li>
 </ul>
 
 <h1>Contributing</h1>
