@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bitcoin Cost Forecast System</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            margin: 0;
+            background-color: Light; /* Light pink background color */
+            font-family: Arial, sans-serif; /* Optional: Set a font for a cleaner look */
+        }
+        .container {
+            text-align: center;
+            max-width: 600px; /* Optional: Limit the width of the content */
+            padding: 20px;
+            background-color: purple; /* Light purple form color */
+            border: 1px solid #ccc; /* Optional: Add a border */
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Optional: Add a shadow for better appearance */
+            border-radius: 10px; /* Optional: Rounded corners */
+            color: white; /* White text color for better contrast */
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Center the content horizontally within the header */
+            margin-bottom: 20px; /* Add some space below the header */
+        }
+        .header img {
+            margin-right: 10px; /* Add some space between the image and the title */
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Align items to the center */
+        }
+        .form-group {
+            display: flex;
+            justify-content: flex-start;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .form-group label {
+            width: 50%; /* Fixed width for labels */
+            text-align: left;
+        }
+        .form-group input {
+            width: 50%; /* Fixed width for inputs */
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        form input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #8a2be2; /* Button background color */
+            color: white; /* Button text color */
+            border: none;
+            border-radius: 5px; /* Rounded corners for the button */
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover {
+            background-color: #7a1fc1; /* Button hover color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" style="width:100px;height:auto;">
+            <h1>Bitcoin Cost Forecast System</h1>
+        </div>
+        <form action="/predict" method="post">
+            <h2>Details of the first day</h2>
+            <div class="form-group">
+                <label for="feature1">Open Price (Day 1):</label>
+                <input type="text" id="feature1" name="feature1" required>
+            </div>
+            <div class="form-group">
+                <label for="feature2">High Price (Day 1):</label>
+                <input type="text" id="feature2" name="feature2" required>
+            </div>
+            <div class="form-group">
+                <label for="feature3">Low Price (Day 1):</label>
+                <input type="text" id="feature3" name="feature3" required>
+            </div>
+            <div class="form-group">
+                <label for="feature4">Trading Volume (Day 1):</label>
+                <input type="text" id="feature4" name="feature4" required>
+            </div>
+            <h2>Details of the second day</h2>
+            <div class="form-group">
+                <label for="feature5">Open Price (Day 2):</label>
+                <input type="text" id="feature5" name="feature5" required>
+            </div>
+            <div class="form-group">
+                <label for="feature6">High Price (Day 2):</label>
+                <input type="text" id="feature6" name="feature6" required>
+            </div>
+            <div class="form-group">
+                <label for="feature7">Low Price (Day 2):</label>
+                <input type="text" id="feature7" name="feature7" required>
+            </div>
+            <div class="form-group">
+                <label for="feature8">Trading Volume (Day 2):</label>
+                <input type="text" id="feature8" name="feature8" required>
+            </div>
+            <input type="submit" value="Predict">
+        </form>
+        {% if prediction %}
+        <h2>{{ prediction }}</h2>
+        {% endif %}
+        {% if error %}
+        <h2>{{ error }}</h2>
+        {% endif %}
+    </div>
+</body>
+</html>
